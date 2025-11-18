@@ -78,12 +78,6 @@ Building & deploying interactive ML apps with Streamlit
 
 Logging, debugging, and evaluating generated text
 
-🌟 Demo (Optional)
-Add a demo GIF or screenshot here:
-
-scss
-Copy code
-![Demo Screenshot](demo.png)
 🤝 Contributing
 PRs, issues, and suggestions are always welcome!
 Feel free to enhance the UI, models, or documentation.
