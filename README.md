@@ -23,22 +23,20 @@ This project helps explore how classical language models compare with modern dee
 AI_Text_Generator
 |
 |── data
-| |── input.txt
-| |── output.log
+|   |── input.txt
+|   |── output.log
 |
 |── models
-| |── bigram.py
-| |── gpt.py
+|   |── bigram.py
+|   |── gpt.py
 |
 |── app
-| |── streamlit_app.py
-| |── testing_ui.py
+|   |── streamlit_app.py
+|   |── testing_ui.py
 |
 |── requirements.txt
 |── README.md
 
-yaml
-Copy code
 
 ---
 
