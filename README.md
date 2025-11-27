@@ -1,85 +1,93 @@
-# 🧠 AI Text Generator  
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)  
-![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)  
-![AI](https://img.shields.io/badge/Generative-AI-green.svg)  
+# 🧠 AI Text Generator
 
-A powerful **AI Text Generator** that blends **Bigram-based NLP** with a **GPT-style neural generator**, wrapped inside an interactive **Streamlit Web App**.  
-Perfect for exploring how classical models compare to modern LLM-style text generation.  
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)
+![AI](https://img.shields.io/badge/Generative-AI-green.svg)
 
----
-
-## 🚀 Features  
-- 🔤 **Bigram Text Generator** – Statistical & simple predictive model  
-- 🤖 **GPT-inspired Generator** – Neural-based, coherent text outputs  
-- 🌐 **Interactive Streamlit UI** – Generate text in seconds  
-- 📁 **Input / Output Logging** – Reads `input.txt`, writes to `output.log`  
-- 🧩 Modular, beginner-friendly Python code  
+A powerful AI Text Generator that blends Bigram based NLP with a GPT style neural generator, wrapped inside an interactive Streamlit Web App.  
+This project helps explore how classical language models compare with modern deep learning approaches.
 
 ---
 
-## 📂 Directory Structure  
-AI_Text_Generator/
-│── bigram.py # Bigram model
-│── gpt.py # GPT-style generator
-│── streamlit_app.py # Streamlit UI
-│── testing_ui.py # UI testing module
-│── input.txt # Sample training data
-│── output.log # Generated text logs
-│── README.md # Documentation
+## 🚀 Features
+- Bigram Text Generator: statistical and lightweight model
+- GPT inspired Text Generator: neural based and more fluent output
+- Streamlit Interface for quick text generation
+- Automated logging of generated text
+- Beginner friendly modular codebase
+
+---
+
+## 📂 Project Structure
+
+AI_Text_Generator
+|
+|── data
+| |── input.txt
+| |── output.log
+|
+|── models
+| |── bigram.py
+| |── gpt.py
+|
+|── app
+| |── streamlit_app.py
+| |── testing_ui.py
+|
+|── requirements.txt
+|── README.md
 
 yaml
 Copy code
 
 ---
 
-## 🛠 Installation  
+## 🛠 Installation
 
-### 1️⃣ Clone the Repo  
+### Step 1: Clone the repository
 ```bash
-git clone https://github.com/M-Nivetha7/AI_Text_Generator.git
-cd AI_Text_Generator
-2️⃣ Install Dependencies
+$ git clone https://github.com/M-Nivetha7/AI_Text_Generator.git
+$ cd AI_Text_Generator
+Step 2: Install required packages
 bash
 Copy code
-pip install -r requirements.txt
-3️⃣ Run the Streamlit App
+$ pip install -r requirements.txt
+Step 3: Run the Streamlit Application
 bash
 Copy code
-streamlit run streamlit_app.py
+$ streamlit run app/streamlit_app.py
 🧪 How to Use
-✍️ Enter your prompt
+Enter your prompt in the text input box
 
-⚙️ Choose Bigram or GPT
+Select either Bigram or GPT model
 
-🚀 Press Generate
+Click Generate Text
 
-📄 View the generated output
+View your result instantly on the interface
 
-📘 Check output.log for saved results
+Check output.log for saved generations
 
-🧠 How It Works
-🔹 Bigram Model
-A probability-based model that predicts the next word using word pairs.
-Simple, lightweight & helps understand traditional NLP.
+🧠 Behind the Scenes
+Bigram Model
+A simple probability based approach
+Predicts each next word using word pairs observed in data
 
-🔹 GPT-based Generator
-A neural model that generates text by learning deeper patterns.
-More fluent, contextual & human-like.
+GPT Inspired Generator
+Learns contextual patterns using neural computation
+Produces more coherent and natural responses
 
 ✨ Learning Outcomes
-Difference between classical NLP & deep learning text generators
+Comparison of classical NLP and neural text generation models
 
-Tokenization, probability modeling, and log-likelihood
+Tokenization and probability based language modeling
 
-End-to-end AI pipeline development
+Model development to app deployment using Streamlit
 
-Building & deploying interactive ML apps with Streamlit
+Logging and debugging of text generation behavior
 
-Logging, debugging, and evaluating generated text
-
-🤝 Contributing
-PRs, issues, and suggestions are always welcome!
-Feel free to enhance the UI, models, or documentation.
+🤝 Contributions
+Contributions are invited
+Share enhancements to the model, UI, documentation or data handling
 
 📬 Contact
 👩‍💻 Author: M. Nivetha
