@@ -56,9 +56,6 @@ Copy code
 streamlit run app/streamlit_app.py
 ```
 
-yaml
-Copy code
-
 ---
 
 ## 🧪 How to Use
