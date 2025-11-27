@@ -20,23 +20,18 @@ This project helps explore how classical language models compare with modern dee
 
 ## 📂 Project Structure
 
-AI_Text_Generator
-|
-|── data
-|   |── input.txt
-|   |── output.log
-|
-|── models
-|   |── bigram.py
-|   |── gpt.py
-|
-|── app
-|   |── streamlit_app.py
-|   |── testing_ui.py
-|
-|── requirements.txt
-|── README.md
-
+AI_Text_Generator/ # Main project directory
+├── data/ # Input and output storage
+│ ├── input.txt # Training input text
+│ └── output.log # Generated text logs
+├── models/ # ML models
+│ ├── bigram.py # Bigram text generator
+│ └── gpt.py # GPT based generator
+├── app/ # Streamlit application
+│ ├── streamlit_app.py # Main UI
+│ └── testing_ui.py # Interface testing module
+├── requirements.txt # Python dependencies
+└── README.md # Documentation
 
 ---
 
