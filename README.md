@@ -45,49 +45,60 @@ Copy code
 ## 🛠 Installation
 
 ### Step 1: Clone the repository
-```bash
-$ git clone https://github.com/M-Nivetha7/AI_Text_Generator.git
-$ cd AI_Text_Generator
-Step 2: Install required packages
-bash
+git clone https://github.com/M-Nivetha7/AI_Text_Generator.git
+cd AI_Text_Generator
+
+shell
 Copy code
-$ pip install -r requirements.txt
-Step 3: Run the Streamlit Application
-bash
+
+### Step 2: Install required packages
+pip install -r requirements.txt
+
+shell
 Copy code
-$ streamlit run app/streamlit_app.py
-🧪 How to Use
-Enter your prompt in the text input box
 
-Select either Bigram or GPT model
+### Step 3: Run the Streamlit Application
+streamlit run app/streamlit_app.py
 
-Click Generate Text
+yaml
+Copy code
 
-View your result instantly on the interface
+---
 
-Check output.log for saved generations
+## 🧪 How to Use
+Enter your prompt in the text input box  
+Select either Bigram or GPT model  
+Click Generate Text  
+View your result instantly on the interface  
+Check output.log for saved generations  
 
-🧠 Behind the Scenes
-Bigram Model
-A simple probability based approach
+---
+
+## 🧠 Behind the Scenes
+
+### Bigram Model
+A simple probability based approach  
 Predicts each next word using word pairs observed in data
 
-GPT Inspired Generator
-Learns contextual patterns using neural computation
+### GPT Inspired Generator
+Learns contextual patterns using neural computation  
 Produces more coherent and natural responses
 
-✨ Learning Outcomes
-Comparison of classical NLP and neural text generation models
+---
 
-Tokenization and probability based language modeling
+## ✨ Learning Outcomes
+Comparison of classical NLP and neural text generation models  
+Tokenization and probability based language modeling  
+Model development to app deployment using Streamlit  
+Logging and debugging of text generation behavior  
 
-Model development to app deployment using Streamlit
+---
 
-Logging and debugging of text generation behavior
+## 🤝 Contributions
+Contributions are invited  
+Share enhancements to the model, UI, documentation or data handling  
 
-🤝 Contributions
-Contributions are invited
-Share enhancements to the model, UI, documentation or data handling
+---
 
-📬 Contact
-👩‍💻 Author: M. Nivetha
+## 📬 Contact
+Author: **M. Nivetha**
