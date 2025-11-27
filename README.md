@@ -18,19 +18,20 @@ This project helps explore how classical language models compare with modern dee
 
 ---
 
-## 📂 Project Structure
-AI_Text_Generator/
-├── data/
-│   ├── input.txt
-│   └── output.log
-├── models/
-│   ├── bigram.py
-│   └── gpt.py
-├── app/
-│   ├── streamlit_app.py
-│   └── testing_ui.py
-├── requirements.txt
-└── README.md
+# AI Text Generator Project Structure
+
+📂 **AI_Text_Generator**  
+├── 📂 **data**  
+│   ├── 📄 input.txt  
+│   └── 📄 output.log  
+├── 📂 **models**  
+│   ├── 📄 bigram.py  
+│   └── 📄 gpt.py  
+├── 📂 **app**  
+│   ├── 📄 streamlit_app.py  
+│   └── 📄 testing_ui.py  
+├── 📄 requirements.txt  
+└── 📄 README.md
 
 
 ---
