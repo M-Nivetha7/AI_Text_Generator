@@ -18,7 +18,7 @@ This project helps explore how classical language models compare with modern dee
 
 ---
 
-# AI Text Generator Project Structure
+```# AI Text Generator Project Structure
 
 📂 **AI_Text_Generator**  
 ├── 📂 **data**  
@@ -32,12 +32,13 @@ This project helps explore how classical language models compare with modern dee
 │   └── 📄 testing_ui.py  
 ├── 📄 requirements.txt  
 └── 📄 README.md
-
+```
 
 ---
 
 ## 🛠 Installation
 
+```
 ### Step 1: Clone the repository
 git clone https://github.com/M-Nivetha7/AI_Text_Generator.git
 cd AI_Text_Generator
@@ -53,6 +54,7 @@ Copy code
 
 ### Step 3: Run the Streamlit Application
 streamlit run app/streamlit_app.py
+```
 
 yaml
 Copy code
